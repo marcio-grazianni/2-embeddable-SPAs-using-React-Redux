@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(228, 233, 240);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.error {
+    color: #bf1612;
+}
+
+.error::before {
+    display: inline;
+    content: "⚠ ";
+}
+
+.location-header{
+    background-color: rgb(101, 34, 147);
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+.location-container1{
+    color: rgb(79, 56, 132);
+    padding: 40px;
+}
+.location-container2{
+    background-color: white;
+    display: inline-block;
+    width: 35%;
+    height: 100px;
+    margin: 50px;
+    border-radius: 35px 35px 35px 5px;
+}
+.appointment-container{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    border-radius: 100px 100px 100px 20px;
+}
+.appointment-confirm{
+    text-align: left;
+    margin-left: 13%;
+    padding-top: 15px;
+    padding-bottom:50px;
+    width: 70%;
+}
+.appointment-confirm select{
+    backgroundColor:rgb(238, 238, 238);
+    height : 40px;
+    width:100%;
+    appearance:none;
+    padding-left:7px;
+}
+.react-datepicker-wrapper{
+    
+}
+.input{
+    height: 20px;
+    width:100px;
+    padding:5px 4% 5px 4% ;
+    background-color:rgb(216, 217, 220);
+    border-radius:30px;
+    font-weight:bold; 
+    border: 1px solid white;
+}
+svg:hover {
+    fill: grey;
+}
+
+
+

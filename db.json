@@ -1,0 +1,111 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "location": "Location1",
+      "name": "Helsinki"
+    },
+    {
+      "id": "2",
+      "location": "Location2",
+      "name": "Oslo"
+    },
+    {
+      "id": "3",
+      "location": "Location3",
+      "name": "Tokyo"
+    },
+    {
+      "id": "4",
+      "location": "Location4",
+      "name": "Berlin"
+    },
+    {
+      "id": "5",
+      "location": "Location5",
+      "name": "Moscow"
+    },
+    {
+      "id": "6",
+      "location": "Location6",
+      "name": "Nairobi"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "name": "Appointment1"
+    },
+    {
+      "id": "2",
+      "name": "Appointment2"
+    },
+    {
+      "id": "3",
+      "name": "Appointment3"
+    },
+    {
+      "id": "4",
+      "name": "Appointment4"
+    },
+    {
+      "id": "5",
+      "name": "Appointment5"
+    },
+    {
+      "id": "6",
+      "name": "Appointment6"
+    }
+  ],
+  "insurances": [
+    {
+      "id": "1",
+      "name": "Insurance Option1"
+    },
+    {
+      "id": "2",
+      "name": "Insurance Option2"
+    },
+    {
+      "id": "3",
+      "name": "Insurance Option3"
+    },
+    {
+      "id": "4",
+      "name": "Insurance Option4"
+    },
+    {
+      "id": "5",
+      "name": "Insurance Option5"
+    },
+    {
+      "id": "6",
+      "name": "Insurance Option6"
+    }
+  ],
+  "appointment_slot": [
+    {
+    "provider_id": 1,
+    "provider_name": "Name1",
+    "next_available_date": "2022-08-31",
+    "slots": [
+      "07:00-04",
+      "08:00-04",
+      "09:00-04",
+      "10:00-04",
+      "11:00-04"
+    ]
+    },
+    {
+    "provider_id": 2,
+    "provider_name": "Name2",
+    "next_available_date": "2022-09-06",
+    "slots": [
+      "07:00-04",
+      "08:00-04",
+      "09:00-04",
+      "10:00-04",
+      "11:00-04"
+    ]
+    }]
+}
