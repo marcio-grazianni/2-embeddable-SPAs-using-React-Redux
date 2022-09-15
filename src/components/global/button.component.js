@@ -6,7 +6,7 @@ import React from "react";
 export const  Button = (props) => {
     return (
         <button style = {{display:"inline-block",backgroundColor:"rgb(92,44,142)",width:"30%",height:"50px",
-                        border:"none",fontSize:"25px",color:"white",display:"inline-block" }} >
+                        border:"none",fontSize:"20px",color:"white"}} >
                         {props.btnText}
         </button>
     );

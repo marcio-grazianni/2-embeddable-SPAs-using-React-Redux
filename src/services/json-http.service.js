@@ -12,18 +12,3 @@ export const getAllInsurances = () => {
 export const getAllAppointment_slots = () => {
     return http.get("/appointment_slot");
 };
-export const getCountry = (id) => {
-    return http.get(`/locations/${id}`);
-};
-
-export const createCountry = (data) => {
-    return http.post("/locations", data);
-};
-
-export const updateCountry = (id, data) => {
-    return http.put(`/locations/${id}`, data);
-};
-
-export const removeCountry = (id) => {
-    return http.delete(`/locations/${id}`);
-};  

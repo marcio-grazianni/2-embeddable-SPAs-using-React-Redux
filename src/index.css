@@ -35,9 +35,10 @@ code {
 .location-container2{
     background-color: white;
     display: inline-block;
-    width: 35%;
+    width: 37%;
     height: 100px;
     margin: 50px;
+    pdding: 0px 5px;
     border-radius: 35px 35px 35px 5px;
 }
 .appointment-container{
@@ -72,6 +73,20 @@ code {
     border-radius:30px;
     font-weight:bold; 
     border: 1px solid white;
+}
+.input:hover{
+    cursor: pointer;
+}
+.timeBtn:hover{
+    cursor: pointer;
+}
+.personal-info{
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 svg:hover {
     fill: grey;

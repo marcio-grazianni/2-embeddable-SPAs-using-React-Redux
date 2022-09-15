@@ -7,7 +7,7 @@ const Locations = () => {
     const [rows, setRows] = useState([]);
 
     useEffect(() => {
-        getAllLocations().then(res => setRows(res.data));
+        getAllLocations().then(res => {setRows(res.data)});
     }, []);
 
     return (
